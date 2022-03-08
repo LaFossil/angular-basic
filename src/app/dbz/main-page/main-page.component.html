@@ -1,0 +1,22 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <!-- Hasta el video 67, 4 estaba asi: -->
+        <!-- <app-personajes [personajes]="personajes"></app-personajes>  -->
+        <!-- La propiedad [personajes] es el input del componente hijo: personajes.component.ts, -->
+        <!-- igual a "personajes" que es la propiedad definida en mi componente, main-page.component.ts -->
+
+        <!-- En video 67, 4 lo deja asi: -->
+        <app-personajes></app-personajes>
+    </div>
+
+    <div class="col">
+        <!-- Hasta el video 67, 4 estaba asi: -->
+        <!-- <app-agregar [nuevo]="nuevo" (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"></app-agregar> -->
+
+        <!-- En video 67, 4 lo deja asi: -->
+        <app-agregar [nuevo]="nuevo"></app-agregar>
+    </div>
+</div>
